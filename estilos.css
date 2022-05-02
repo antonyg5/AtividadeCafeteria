@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    background-color: #f9edd7;
+    height: 5em;
+}
+
+#navbar img {
+    float: left;
+    width: 80px;
+}
+
+#navbar a{
+    float: left;
+    color: brown;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#navbar a:hover{
+    color: gray;
+}
+
+#principal{
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imagens/images.jpg');
+    background-size: 100%;
+    height: 60%;
+    text-align: center;
+    padding-top: 15%
+}
+
+#principal h1{
+    margin: 0;
+}
+
+#principal p{
+    font-size: 1.7em;
+}
+
+#sobre {
+    background-color: #E9DCCD;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+    height: 80%;
+}
+
+.item-foto {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+footer{
+                    /* vermelho (E3), verde (BA), azul (B3) */
+    background-color: #f9edd7;
+    background-color: #f9edd7;
+    color: brown;
+    text-align: center;
+    padding-top: 10%; 
+    padding: 4%;
+}
+
+#titulo{
+    text-align: center;
+    padding: 4%;
+}
+.foto {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#informacoes{
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../imagens/Cafeteria\ Elegante\ Logo.png');
+    background-size: 50%;
+    height: 60%;
+    text-align: center;
+    padding-top: 15%
+}
+
+#informacoes p{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#localizacao img{
+    width: 40%;
+}
+
+#info{
+    background-color: beige;
+    text-align: center;
+    padding: 4%;
+}
